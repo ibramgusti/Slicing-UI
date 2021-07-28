@@ -59,6 +59,39 @@ body{
     top: 310px;
 }
 
+@media screen and (max-width: 1199px) {
+    .five, .six, .seven{
+        width: 200px;
+    }
+
+    .six{
+        left: 242px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .five, .six, .seven{
+        width: 180px;
+    }
+
+    .five, .seven{
+        left: -20px;
+    }
+
+    .six{
+        left: 182px;
+        height: 300px;
+        object-fit: cover;
+        /* object-position:center ; */
+    }
+
+    .six img{
+        width: 220px;
+    }
+
+}
+
 .desc{
     width: 350px;
     margin-bottom: 56px;
