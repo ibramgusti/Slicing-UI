@@ -14,7 +14,28 @@ body{
     position: absolute;
     overflow: hidden;
     border-radius: 10px;
-    
+}
+
+@media screen and (max-width: 768px) {
+    .images{
+        position: static;
+        display: table;
+        margin: 0 10px;
+    }
+
+    .images img {
+        height: 350px;
+        width: 300px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .bungkus{
+        display: flex;
+        position: relative;
+        overflow: scroll;
+    }
+
 }
 
 .five{
@@ -40,25 +61,5 @@ body{
 
 .desc{
     width: 350px;
-    margin-left: 80px;
     margin-bottom: 56px;
-}
-
-.strips{
-    position: absolute;
-    width: 138px;
-    height: 0px;
-    background-color: #C0C0C0;
-    border: 1px solid #C0C0C0;
-    transform: rotate(90deg);
-}
-
-.first{
-    top :385px;
-    left: 678px;
-}
-
-.second{
-    top :595px;
-    left: 678px;
 }
