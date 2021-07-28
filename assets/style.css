@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    min-height: 1000px;
+}
+
+#howitwork{
+    position: relative;
+    margin: 50px 0;
+}
+
+
+.images{
+    position: absolute;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+
+.five{
+    width: 253px;
+    height: 252px;
+    left: 12px;
+    top: 30px;  
+}
+
+.six{
+    width: 253px;
+    height: 347px;
+    left: 292px;
+    top: 125px;
+}
+
+.seven{
+    width: 253px;
+    height: 316px;
+    left: 12px;
+    top: 310px;
+}
+
+.desc{
+    width: 350px;
+    margin-left: 80px;
+    margin-bottom: 56px;
+}
+
+.strips{
+    position: absolute;
+    width: 138px;
+    height: 0px;
+    background-color: #C0C0C0;
+    border: 1px solid #C0C0C0;
+    transform: rotate(90deg);
+}
+
+.first{
+    top :385px;
+    left: 678px;
+}
+
+.second{
+    top :595px;
+    left: 678px;
+}
